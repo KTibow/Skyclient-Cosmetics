@@ -1,8 +1,9 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        maven { url = "https://repo.woverflow.cc" }
-    }
+        maven { url "https://maven.architectury.dev/" }
+        maven { url "https://files.minecraftforge.net/maven/" }
+   }
 }
 
 rootProject.name = mod_name
